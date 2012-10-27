@@ -3,4 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
+    <Button
+        android:id="@+id/visitsSummary"
+        style="@style/home_buttonStyle"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="17dp"
+        android:text="@string/visitsSummary" />
+
+    <Button
+        android:id="@+id/pastVisits"
+        style="@style/home_buttonStyle"
+        android:layout_above="@+id/visitsSummary"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="16dp"
+        android:text="@string/pastVisits" />
+
 </RelativeLayout>
