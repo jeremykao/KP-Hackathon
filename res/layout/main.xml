@@ -1,15 +1,18 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_all" >
+	<include
+        layout="@layout/header" />
     <Button
         android:id="@+id/pastVisits"
         style="@style/home_buttonStyle"
-        android:layout_width="match_parent"
-        android:layout_alignParentLeft="true"
+        android:layout_width="275dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="290dp"
-        android:text="@string/pastVisits" />
+        android:text="@string/pastVisits" 
+        android:background="@drawable/rounded_rectangle" />
 
     <TextView
         android:id="@+id/avsSummary"
@@ -20,11 +23,13 @@
         android:textSize="16dp" />
 
     <Button
+        android:layout_width="275dp"
         android:id="@+id/visitsSummary"
         style="@style/home_buttonStyle"
-        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="360dp"
-        android:text="@string/visitsSummary" />
+        android:text="@string/visitsSummary"
+        android:background="@drawable/rounded_rectangle" />
 
     <include
         layout="@layout/navbar" />

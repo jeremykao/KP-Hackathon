@@ -10,5 +10,7 @@
     <string name="logo">Kaiser Permanente Logo</string>
     <string name="pastVisits">Past Visits</string>
     <string name="visitsSummary">Visits Summary</string>
+    <string name="NextSteps">What to do Now?</string>
+    <string name="DoctorsNotes">Doctor\'s Notes</string>
 
 </resources>

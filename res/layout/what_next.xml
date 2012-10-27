@@ -1,0 +1,110 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical"
+    	android:background="@drawable/bg_all" >
+	<include
+        layout="@layout/header" />
+   
+   <ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:layout_marginBottom="60dp">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="100dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+	<TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:textColor="@color/generalTextColor"
+        android:text="@string/NextSteps"
+        android:textSize="30dp"
+        android:typeface="normal" />
+	
+    <TextView
+        android:id="@+id/what_nextTV1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_rectangle"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/generalTextColor"
+        android:textSize="20dp"
+        android:typeface="normal" />
+    <TextView
+        android:id="@+id/what_nextTV2"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_rectangle"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/generalTextColor"
+        android:textSize="20dp"
+        android:typeface="normal" />
+    <TextView
+        android:id="@+id/what_nextTV3"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_rectangle"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/generalTextColor"
+        android:textSize="20dp"
+        android:typeface="normal" />
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:textColor="@color/generalTextColor"
+        android:text="@string/DoctorsNotes"
+        android:textSize="30dp"
+        android:typeface="normal" />
+    <TextView
+        android:id="@+id/what_nextTV4"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_rectangle"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/generalTextColor"
+        android:textSize="20dp"
+        android:typeface="normal" />
+    <TextView
+        android:id="@+id/what_nextTV5"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/rounded_rectangle"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/generalTextColor"
+        android:textSize="20dp"
+        android:typeface="normal" />
+    <TextView
+        android:id="@+id/what_nextTV7"
+        android:layout_width="240dp"
+        android:layout_height="200dp"
+        android:typeface="normal" />
+</LinearLayout>
+</ScrollView>
+<include
+        layout="@layout/navbar" />
+</RelativeLayout>

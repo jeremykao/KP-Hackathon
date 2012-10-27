@@ -18,8 +18,9 @@ public class WhatsNext extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         WhatsNext.this.overridePendingTransition(R.anim.slide_left, R.anim.slide_right_out);
-        setContentView(R.layout.main);
+        setContentView(R.layout.what_next);
         assignButtons();
+        printInfo();
     }
 
     @Override
@@ -66,5 +67,18 @@ public class WhatsNext extends Activity {
 			}
 		});
         
+    }
+    public void printInfo(){
+    	TextView text1 = (TextView) findViewById(R.id.what_nextTV1);
+    	TextView text2 = (TextView) findViewById(R.id.what_nextTV2);
+    	TextView text3 = (TextView) findViewById(R.id.what_nextTV3);
+    	TextView text4 = (TextView) findViewById(R.id.what_nextTV4);
+    	TextView text5 = (TextView) findViewById(R.id.what_nextTV5);
+    	
+    	text1.setText("Take 2 pills of Ibuprofen");
+    	text2.setText("Exercise Daily");
+    	text3.setText("Do not consume too much Sodium");
+    	text4.setText("Losing Weight and Exercising helps a lot");
+    	text5.setText("Let's try to see lower readings next time!");
     }
 }
