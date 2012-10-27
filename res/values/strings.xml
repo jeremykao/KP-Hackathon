@@ -5,6 +5,8 @@
     <string name="menu_settings">Settings</string>
     <string name="title_main">Main Screen</string>
     <string name="title_splashScreen">Splash Screen</string>
+    <string name="title_visitSummary">Visit Summary</string>
+    <string name="title_pastVisits">Past Visits</string>
     <string name="logo">Kaiser Permanente Logo</string>
     <string name="pastVisits">Past Visits</string>
     <string name="visitsSummary">Visits Summary</string>

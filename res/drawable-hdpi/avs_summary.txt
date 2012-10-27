@@ -1,0 +1,7 @@
+Patient Name: Mike Hunt
+Doctor: Dr. Dre
+Previous Visit: 10/22/2012
+Reason: Felt light-headed
+Cause: High Blood Pressure
+Action: Daily dose of weed
+Next Checkup: 30 days

@@ -4,19 +4,29 @@
     android:layout_height="match_parent" >
 
     <Button
-        android:id="@+id/visitsSummary"
-        style="@style/home_buttonStyle"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_marginBottom="17dp"
-        android:text="@string/visitsSummary" />
-
-    <Button
         android:id="@+id/pastVisits"
         style="@style/home_buttonStyle"
-        android:layout_above="@+id/visitsSummary"
         android:layout_alignParentLeft="true"
-        android:layout_marginBottom="16dp"
+        android:layout_marginTop="290dp"
         android:text="@string/pastVisits" />
+
+    <TextView
+        android:id="@+id/avsSummary"
+        android:layout_width="280dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:textSize="16dp" />
+    <Button
+        android:id="@+id/visitsSummary"
+        style="@style/home_buttonStyle"
+        android:layout_alignBottom="@+id/avsSummary"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="400dp"
+        android:text="@string/visitsSummary" />
+    
+    <include
+        android:layout_alignParentBottom="true"
+        layout="@layout/navbar" />
 
 </RelativeLayout>

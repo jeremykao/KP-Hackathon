@@ -6,14 +6,14 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="420dp"
-        android:layout_height="180dp"
+        android:layout_width="380dp"
+        android:layout_height="400dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="110dp"
+        android:layout_marginTop="20dp"
         android:contentDescription="@string/logo"
-        android:src="@drawable/splashscreen" />
+        android:src="@drawable/splashscreen2" />
 
-    <TextView
+    <!-- <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/logo"
@@ -22,6 +22,6 @@
         android:text="@string/app_name"
         android:textColor="@color/logoTextColor"
         android:textSize="40dp"
-        android:typeface="normal" />
+        android:typeface="normal" />-->
 
 </RelativeLayout>
