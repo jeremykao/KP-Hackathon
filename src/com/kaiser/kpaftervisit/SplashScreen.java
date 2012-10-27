@@ -13,6 +13,8 @@ public class SplashScreen extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_screen);
         
+        //this.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        
         Handler handler = new Handler();
         
         // run a thread after 2 seconds to start the home screen
