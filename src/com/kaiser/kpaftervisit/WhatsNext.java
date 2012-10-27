@@ -67,6 +67,9 @@ public class WhatsNext extends Activity {
 			}
 		});
         
+        Button what_next = (Button) findViewById(R.id.whatsNextButton);
+        what_next.setBackgroundResource(R.drawable.todoh2);
+        
     }
     public void printInfo(){
     	TextView text1 = (TextView) findViewById(R.id.what_nextTV1);
@@ -75,7 +78,7 @@ public class WhatsNext extends Activity {
     	TextView text4 = (TextView) findViewById(R.id.what_nextTV4);
     	TextView text5 = (TextView) findViewById(R.id.what_nextTV5);
     	
-    	text1.setText("Take 2 pills of Ibuprofen");
+    	text1.setText("Take 2 pills of Benicar Daily");
     	text2.setText("Exercise Daily");
     	text3.setText("Do not consume too much Sodium");
     	text4.setText("Losing Weight and Exercising helps a lot");

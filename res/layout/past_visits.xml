@@ -1,7 +1,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="@drawable/background3" >
 	<ScrollView 
     	android:layout_width="fill_parent"
     	android:layout_height="fill_parent"
@@ -18,24 +19,32 @@
         android:layout_width="280dp"
         android:layout_height="180dp"
         android:layout_marginTop="120dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
         android:textSize="16dp" />
      <TextView
         android:id="@+id/avsSummary2"
         android:layout_width="280dp"
         android:layout_height="180dp"
         android:layout_marginTop="20dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
         android:textSize="16dp" />
      <TextView
         android:id="@+id/avsSummary3"
         android:layout_width="280dp"
         android:layout_height="180dp"
         android:layout_marginTop="20dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
         android:textSize="16dp" />
      <TextView
         android:id="@+id/avsSummary4"
         android:layout_width="280dp"
         android:layout_height="180dp"
         android:layout_marginTop="20dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
         android:textSize="16dp" />
      </LinearLayout>
 	</ScrollView>

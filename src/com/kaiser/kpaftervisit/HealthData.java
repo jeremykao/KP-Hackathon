@@ -18,7 +18,7 @@ public class HealthData extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         HealthData.this.overridePendingTransition(R.anim.slide_left, R.anim.slide_right_out);
-        setContentView(R.layout.main);
+        setContentView(R.layout.healthdata);
         assignButtons();
     }
 
@@ -65,6 +65,9 @@ public class HealthData extends Activity {
                 HealthData.this.startActivity(intent);
 			}
 		});
+        
+        Button data = (Button) findViewById(R.id.healthData);
+        data.setBackgroundResource(R.drawable.datah2);
         
     }
 }

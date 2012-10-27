@@ -9,25 +9,30 @@
         <Button
             android:id="@+id/homeButton"
             style="@style/navBar_Style"
+            android:background="@drawable/home"
             android:layout_marginLeft="3dp" />
         
         <Button
             android:id="@+id/whatsNextButton"
             style="@style/navBar_Style"
+            android:background="@drawable/todo"
             android:layout_marginLeft="3dp" />
 
         <Button
             android:id="@+id/healthData"
             style="@style/navBar_Style"
+            android:background="@drawable/data"
             android:layout_marginLeft="3dp" />
         
         <Button
             android:id="@+id/progress"
             style="@style/navBar_Style"
+            android:background="@drawable/progress"
             android:layout_marginLeft="3dp" />
 
         <Button
             android:id="@+id/settings"
             style="@style/navBar_Style"
+            android:background="@drawable/settings"
             android:layout_marginLeft="3dp" />
     </LinearLayout>

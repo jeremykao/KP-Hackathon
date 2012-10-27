@@ -8,9 +8,14 @@
     <string name="title_visitSummary">Visit Summary</string>
     <string name="title_pastVisits">Past Visits</string>
     <string name="logo">Kaiser Permanente Logo</string>
-    <string name="pastVisits">Past Visits</string>
-    <string name="visitsSummary">Visits Summary</string>
+    <string name="pastVisits">Visits Summary</string>
+    <string name="visitsSummary">Past Visits</string>
     <string name="NextSteps">What to do Now?</string>
     <string name="DoctorsNotes">Doctor\'s Notes</string>
 	<string name="application_name">MyHealthApp</string>
+	<string name="visitSummaryStatement">Visit Summary: </string>
+	<string name="graphText">This is a plot of your blood pressure over a 90 day period. It\'s been lowering, you\'re improving!</string>
+	<string name="progressBarText">Your hypertension is getting better, but not as much as we had hoped. I\'m really happy with your progress, but I think you can do better.</string>
+	<string name="progressBarText2">We prescribed you Benicar to lower your blood pressure. Look forward to your reaching the goal!</string>
+	
 </resources>

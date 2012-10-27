@@ -70,5 +70,8 @@ public class Progress extends Activity {
 			}
 		});
         
+        Button progress = (Button) findViewById(R.id.progress);
+        progress.setBackgroundResource(R.drawable.progressh2);
+        
     }
 }

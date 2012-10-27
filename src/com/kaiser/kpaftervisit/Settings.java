@@ -61,5 +61,8 @@ public class Settings extends Activity {
 			}
 		});
         
+        Button settings = (Button) findViewById(R.id.settings);
+        settings.setBackgroundResource(R.drawable.settingsh2);
+        
     }
 }

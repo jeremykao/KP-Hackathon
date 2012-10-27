@@ -48,6 +48,16 @@ public class MainActivity extends Activity {
         catch(IOException e){
         	Log.d("printSummary", "IO EXCEPTION");
         }
+        
+        TextView summary = (TextView) findViewById(R.id.avsSummary);
+        summary.setOnClickListener(new View.OnClickListener() {
+			
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(MainActivity.this, Detailed.class);
+                MainActivity.this.startActivity(intent);
+			}
+		});
     }
 
     @Override
@@ -103,6 +113,9 @@ public class MainActivity extends Activity {
                 MainActivity.this.startActivity(intent);
 			}
 		});
+        
+        Button homeButton = (Button) findViewById(R.id.homeButton);
+        homeButton.setBackgroundResource(R.drawable.homeh);
         
     }
 }

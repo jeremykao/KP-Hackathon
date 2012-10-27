@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3" >
+
+    <ImageView
+        android:id="@+id/healthChart"
+        android:layout_width="280dp"
+        android:layout_height="210dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/rounded_rectangle"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:src="@drawable/graph2"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp" />
+	<TextView
+        android:id="@+id/healthChart"
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/rounded_rectangle"
+        android:clickable="true"
+        android:text="@string/graphText"
+        android:onClick="onClick"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp" />
+	
+	<include
+        layout="@layout/header" />
+    <include
+        layout="@layout/navbar" />
+</RelativeLayout>

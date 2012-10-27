@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_all" >
+    android:background="@drawable/background3" >
 	<include
         layout="@layout/header" />
     <Button
@@ -10,17 +10,22 @@
         style="@style/home_buttonStyle"
         android:layout_width="275dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="290dp"
+        android:layout_marginTop="310dp"
         android:text="@string/pastVisits" 
         android:background="@drawable/rounded_rectangle" />
 
     <TextView
         android:id="@+id/avsSummary"
         android:layout_width="280dp"
-        android:layout_height="250dp"
+        android:layout_height="190dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
-        android:textSize="16dp" />
+        android:background="@drawable/rounded_rectangle"
+        android:clickable="true"
+        android:onClick="onClick"
+        android:textSize="16dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp" />
 
     <Button
         android:layout_width="275dp"
