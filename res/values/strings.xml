@@ -12,5 +12,5 @@
     <string name="visitsSummary">Visits Summary</string>
     <string name="NextSteps">What to do Now?</string>
     <string name="DoctorsNotes">Doctor\'s Notes</string>
-
+	<string name="application_name">MyHealthApp</string>
 </resources>

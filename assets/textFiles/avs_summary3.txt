@@ -1,0 +1,7 @@
+Patient Name: Mike Jones
+Doctor: Dr. Dre
+Previous Visit: 10/11/2011
+Reason: Yearly Checkup
+Cause: Yearly Checkup
+Action: Keep being Healthy
+Next Checkup: 1 year

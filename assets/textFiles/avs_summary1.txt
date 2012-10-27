@@ -1,0 +1,7 @@
+Patient Name: Mike Jones
+Doctor: Dr. Dre
+Previous Visit: 10/14/2012
+Reason: Felt like vomitting
+Cause: Stomach Flu
+Action: Eat rice and bananas
+Next Checkup: 14 days

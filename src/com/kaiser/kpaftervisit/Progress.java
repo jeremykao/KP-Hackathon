@@ -1,16 +1,13 @@
 package com.kaiser.kpaftervisit;
 
-import java.io.IOException;
-
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.Canvas;
 import android.os.Bundle;
-import android.text.Html;
-import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
 public class Progress extends Activity {
 
@@ -18,8 +15,15 @@ public class Progress extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         Progress.this.overridePendingTransition(R.anim.slide_left, R.anim.slide_right_out);
-        setContentView(R.layout.main);
+        setContentView(R.layout.progress);
         assignButtons();
+        
+        //Bitmap b = Bitmap.createBitmap(100, 100, Bitmap.Config.ARGB_8888);
+        //Canvas c = new Canvas(b);
+        //ProgressBar progressBar = new ProgressBar(5,5,90,90,c);
+        
+        //View canvasView = (View) findViewById(R.id.canvasView);
+        //canvasView.addView(c);
     }
 
     @Override

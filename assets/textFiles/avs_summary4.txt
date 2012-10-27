@@ -1,0 +1,7 @@
+Patient Name: Mike Jones
+Doctor: Dr. Dre
+Previous Visit: 03/04/2011
+Reason: Sick as heck
+Cause: Alcohol poisoning
+Action: Eat blueberries
+Next Checkup: 10 days

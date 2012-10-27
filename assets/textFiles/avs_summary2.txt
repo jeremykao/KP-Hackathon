@@ -1,0 +1,7 @@
+Patient Name: Mike Jones
+Doctor: Dr. Dre
+Previous Visit: 08/02/2012
+Reason: Bored
+Cause: Inconclusive
+Action: Board Games
+Next Checkup: Never

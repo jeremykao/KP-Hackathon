@@ -1,7 +1,7 @@
-Patient Name: Mike Hunt
+Patient Name: Mike Jones
 Doctor: Dr. Dre
 Previous Visit: 10/22/2012
 Reason: Felt light-headed
 Cause: High Blood Pressure
-Action: Daily dose of weed
+Action: Eat less sodium
 Next Checkup: 30 days
