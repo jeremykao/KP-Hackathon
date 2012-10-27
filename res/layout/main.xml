@@ -6,6 +6,7 @@
     <Button
         android:id="@+id/pastVisits"
         style="@style/home_buttonStyle"
+        android:layout_width="match_parent"
         android:layout_alignParentLeft="true"
         android:layout_marginTop="290dp"
         android:text="@string/pastVisits" />
@@ -17,16 +18,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="100dp"
         android:textSize="16dp" />
+
     <Button
         android:id="@+id/visitsSummary"
         style="@style/home_buttonStyle"
-        android:layout_alignBottom="@+id/avsSummary"
         android:layout_alignParentLeft="true"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="360dp"
         android:text="@string/visitsSummary" />
-    
-    <include
-        android:layout_alignParentBottom="true"
-        layout="@layout/navbar" />
 
+    <include
+        layout="@layout/navbar" />
 </RelativeLayout>

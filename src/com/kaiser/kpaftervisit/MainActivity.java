@@ -17,8 +17,10 @@ public class MainActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        MainActivity.this.overridePendingTransition(R.anim.slide_left, R.anim.slide_right_out);
         setContentView(R.layout.main);
         
+        assignButtons();
         //this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         
         Button pastVisits = (Button) findViewById(R.id.pastVisits);
@@ -44,7 +46,7 @@ public class MainActivity extends Activity {
         	printSummary();
         }
         catch(IOException e){
-        	Log.d("printSummary", "IO EXCEPTION MOTHA FUCAS");
+        	Log.d("printSummary", "IO EXCEPTION");
         }
     }
 
@@ -63,5 +65,44 @@ public class MainActivity extends Activity {
     	
     	TextView avsSummaryView = (TextView) findViewById(R.id.avsSummary);
     	avsSummaryView.setText(Html.fromHtml(summary));
+    }
+    public void assignButtons(){
+        Button settings = (Button) findViewById(R.id.settings);
+        settings.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(MainActivity.this, Settings.class);
+                MainActivity.this.startActivity(intent);
+			}
+		});
+        
+        Button whatsNext = (Button) findViewById(R.id.whatsNextButton);
+        whatsNext.setOnClickListener(new View.OnClickListener() {
+			
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(MainActivity.this, WhatsNext.class);
+                MainActivity.this.startActivity(intent);
+			}
+		});
+        
+        Button progress = (Button) findViewById(R.id.progress);
+        progress.setOnClickListener(new View.OnClickListener() {
+			
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(MainActivity.this, Progress.class);
+                MainActivity.this.startActivity(intent);
+			}
+		});
+        Button healthData = (Button) findViewById(R.id.healthData);
+        healthData.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(MainActivity.this, HealthData.class);
+                MainActivity.this.startActivity(intent);
+			}
+		});
+        
     }
 }

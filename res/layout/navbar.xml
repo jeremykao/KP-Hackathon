@@ -1,30 +1,33 @@
-<merge xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
-    
-    <Button
-        android:id="@+id/homeButton"
-        android:layout_gravity="bottom"
-        android:layout_marginLeft="0dp"
-        style="@style/navBar_Style"/>
-    <Button
-        android:id="@+id/whatsNextButton"
-        android:layout_gravity="bottom"
-        android:layout_marginLeft="65dp"
-        style="@style/navBar_Style"/>
-    <Button
-        android:id="@+id/healthData"
-        android:layout_gravity="bottom"
-        android:layout_marginLeft="130dp"
-        style="@style/navBar_Style"/>
-    <Button
-        android:id="@+id/progress"
-        android:layout_gravity="bottom"
-        android:layout_marginLeft="195dp"
-        style="@style/navBar_Style"/>
-	<Button
-        android:id="@+id/settings"
-        android:layout_gravity="bottom"
-        android:layout_marginLeft="260dp"
-        style="@style/navBar_Style"/>
-	
-</merge>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="3dp"
+        android:background="#000" >
+
+        <Button
+            android:id="@+id/homeButton"
+            style="@style/navBar_Style"
+            android:layout_marginLeft="3dp" />
+        
+        <Button
+            android:id="@+id/whatsNextButton"
+            style="@style/navBar_Style"
+            android:layout_marginLeft="3dp" />
+
+        <Button
+            android:id="@+id/healthData"
+            style="@style/navBar_Style"
+            android:layout_marginLeft="3dp" />
+        
+        <Button
+            android:id="@+id/progress"
+            style="@style/navBar_Style"
+            android:layout_marginLeft="3dp" />
+
+        <Button
+            android:id="@+id/settings"
+            style="@style/navBar_Style"
+            android:layout_marginLeft="3dp" />
+    </LinearLayout>
