@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+    <color name="splashScreen_bgColor">#9191FF</color>
+    <color name="logoTextColor">#FFFFFF</color>
+
+</resources>
